@@ -1,5 +1,5 @@
 import React from 'react';
-import { NavBar, HeroSection } from './components/index';
+import { NavBar, Products, HeroSection, DevApi, Customers } from './components/index';
 import  { useState } from 'react';
 
 function App() {
@@ -8,6 +8,9 @@ function App() {
     <div>
       <NavBar isMenuShown={isMenuShown} setIsMenuShown={setIsMenuShown} />
       <HeroSection isMenuShown={isMenuShown} />
+      <Products />
+      <DevApi />
+      <Customers />
     </div>
   );
 }
