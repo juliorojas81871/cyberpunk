@@ -1,6 +1,6 @@
 import React from "react";
 import codeImage from "../assets/code.jpg";
-import PageSection from "./PageSection";
+import { PageSection } from './index';
 
 const DevApi = () => {
   return (

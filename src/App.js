@@ -1,5 +1,5 @@
 import React from 'react';
-import { NavBar, Products, HeroSection, DevApi, Customers } from './components/index';
+import { NavBar, Products, HeroSection, DevApi, Customers, Contact, Footer } from './components/index';
 import  { useState } from 'react';
 
 function App() {
@@ -11,6 +11,8 @@ function App() {
       <Products />
       <DevApi />
       <Customers />
+      <Contact />
+      <Footer />
     </div>
   );
 }

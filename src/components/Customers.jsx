@@ -1,5 +1,5 @@
 import React from 'react'
-import PageSection from './PageSection'
+import { PageSection } from './index';
 import { facts, companies  } from "../utils/constants";
 
 const Customers = () => {

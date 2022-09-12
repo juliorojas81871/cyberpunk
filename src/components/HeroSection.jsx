@@ -1,7 +1,7 @@
 import React, { useRef, useState } from 'react';
 import heroVideo from '../assets/heroVideo.mp4';
 import { FaPauseCircle, FaPlayCircle } from 'react-icons/fa';
-import GradientBtn from './GradientBtn';
+import { GradientBtn } from "./index";
 
 const HeroSection = ({ isMenuShown }) => {
   const [isVideoPlaying, setIsVideoPlaying] = useState(true);
@@ -24,7 +24,7 @@ const HeroSection = ({ isMenuShown }) => {
         src={heroVideo}
         loop
         muted
-        // autoPlay
+        autoPlay
         className='object-cover h-full w-full absolute -z-10'
       />
       {/* need to be dynamic for the black background and transperent menue when video pause */}
