@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/cyberpunk/static/css/main.90e4382f.css",
+    "main.js": "/cyberpunk/static/js/main.2dfbdd4b.js",
+    "static/media/heroVideo.mp4": "/cyberpunk/static/media/heroVideo.ca0e5ce85e85969321a5.mp4",
+    "static/media/code.jpg": "/cyberpunk/static/media/code.d8dcfc09638b33d73305.jpg",
+    "static/media/contact-us.jpg": "/cyberpunk/static/media/contact-us.27d0b3e52b4b6d9ce65c.jpg",
+    "index.html": "/cyberpunk/index.html",
+    "main.90e4382f.css.map": "/cyberpunk/static/css/main.90e4382f.css.map",
+    "main.2dfbdd4b.js.map": "/cyberpunk/static/js/main.2dfbdd4b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.90e4382f.css",
+    "static/js/main.2dfbdd4b.js"
+  ]
+}
